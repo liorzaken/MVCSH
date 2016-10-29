@@ -6,5 +6,6 @@ to add a new page to the sulotion-> needs to define a new IActionResult
 
 and add a view called foo to home controlers view folder - View/Home - > Add MVC View Page
 
+// sdfsdfsdf
 
 http://localhost:5482/Foo/Bar
