@@ -38,12 +38,12 @@
     }
   ],
   "dependencies": {
-    "less": "1.4.2"
+    "less": "1.4.2",
+    "bower": "1.7.9"
+
   },
 
   "scripts": {
-    "start": "node index.js",
-    "test": "mocha",
-    "postinstall": "bower install && grunt build"
+    "postinstall": "./node_modules/bower/bin/bower install"
   }
 }
